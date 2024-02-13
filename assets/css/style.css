@@ -486,6 +486,7 @@ section {
 .about .content img{
   width: 100%;
   border: black 2px solid;
+  height: 60%;
 }
 
 .about .content ul li {
@@ -843,7 +844,6 @@ section {
 .team .member:hover .social {
   opacity: 1;
 }
-
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
