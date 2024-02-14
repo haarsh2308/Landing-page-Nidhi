@@ -571,37 +571,12 @@ section {
 /*--------------------------------------------------------------
 # Featured
 --------------------------------------------------------------*/
-.featured img {
-  border-radius: 0;
-}
-
 .featured .card {
   border: 0;
-  text-align: ceneter;
 }
 
-.featured .card-body {
-  -moz-text-align-last: center;
-  text-align-last: center;
-}
-
-.featured .card-title a {
-  font-weight: 600;
-  font-size: 18px;
-  color: #052c3f;
-}
-
-.featured .btn {
-  border-radius: 4px;
-  padding: 4px 30px 6px 30px;
-  border: 2px solid #85b0be;
-  color: #85b0be;
-  font-weight: 500;
-}
-
-.featured .btn:hover {
-  background-color: #85b0be;
-  color: #fff;
+.featured .row{
+  display: flex;
 }
 
 /*--------------------------------------------------------------
